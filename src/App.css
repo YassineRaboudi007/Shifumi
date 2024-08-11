@@ -1,0 +1,30 @@
+body {
+  background-color: #112d4e;
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-family: fantasy;
+}
+
+.animated-image {
+  width: auto;
+  height: auto;
+}
+
+.animated-image.apply {
+  animation: fadeIn ease-in 0.5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
