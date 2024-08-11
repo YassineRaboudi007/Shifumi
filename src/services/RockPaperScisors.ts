@@ -1,5 +1,5 @@
-import { RockPaperScissors } from "../models/RockPaperScissorsEnum";
-import { RoundWinner } from "../models/RoundWinnerEnum";
+import { RockPaperScissors } from "./../models/RockPaperScissorsEnum";
+import { RoundWinner } from "./../models/RoundWinnerEnum";
 
 export function getRoundWinner(
   playerChoice: RockPaperScissors,

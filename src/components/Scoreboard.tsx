@@ -1,4 +1,4 @@
-import { RoundWinner } from "../models/RoundWinnerEnum";
+import { RoundWinner } from "./../models/RoundWinnerEnum";
 
 interface ScoreboardProps {
   userScore: number;
